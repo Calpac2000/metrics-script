@@ -36,7 +36,7 @@ try {
             3 
             {
                 #Lists current processor and memory usage.
-                Get-Counter -Counter "\Processor(_Total)\% Processor Time", "\Memory\Committed Bytes "
+                Get-Counter -Counter "\Processor(_Total)\% Processor Time", "\Memory\Committed Bytes"
             }
             
             4 
